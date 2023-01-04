@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Soikot's Shop</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Logo/Logo2.jpeg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#shoes">Shoes</a>
+            <a class="nav-link" href="#backpack">Backpack</a>
+            <a class="nav-link" href="#subscribe">Subscribe</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div id="carouselExampleControls" class="carousel slide bg-color" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <h1>Mi Max 4K Smart TV</h1>
+              <ul>
+                <li>4K Ultra HD (3840 x 2160) @60 Hz</li>
+                <li>Amlogic 12nm T972 Chip</li>
+                <li>RAM: 4GB, ROM: 64GB</li>
+                <li>2x Speakers, Audio Output: 32W</li>
+              </ul>
+              <h2 class="price">$1200</h2>
+              <button type="button" class="btn btn-danger">Buy Now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="banner-images/tv.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <h1>Sony WH-CH500 Headphones</h1>
+              <ul>
+                <li>Bluetooth Wireless Technology</li>
+                <li>Compact 30mm Driver Unit </li>
+                <li>Hands-free Calling and Voice Assistant</li>
+                <li>Up to 20 Hours of Playback Time</li>
+              </ul>
+              <h2 class="price">$200</h2>
+              <button type="button" class="btn btn-danger">Buy Now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="banner-images/headphone.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <h1>Microsoft Xbox 360</h1>
+              <ul>
+                <li>3.2GHz PowerPC Tri-Core Processor</li>
+                <li>IBM designed Xenon as CPU</li>
+                <li>512MB GDDR3 RAM</li>
+                <li>USB 4 USB 2.0 ports </li>
+              </ul>
+              <h2 class="price">$450</h2>
+              <button type="button" class="btn btn-danger">Buy Now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="banner-images/xbox.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container catagories">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="d-flex justify-content-between align-items-center cat-watch">
+          <h1>Watch</h1>
+          <img src="categories/watch.png" alt="">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="d-flex justify-content-between align-items-center cat-bag">
+          <h1>Bag</h1>
+          <img src="categories/bag.png" alt="">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="d-flex justify-content-between align-items-center cat-shoes">
+          <h1>Shoes</h1>
+          <img src="categories/shoes.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container backpack" id="backpack">
+    <h2> Backpack </h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="bags/bag-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <p class="card-text">Sierra Swerve Red Color Laptop Backpack for Travel or Work Bookbag with 15-Inch Laptop
+              Compartment.</p>
+            <h5>$220</h5>
+            <button type="button" class="btn btn-danger">Buy Now>></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="bags/bag-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Blue Backpack</h5>
+            <p class="card-text"> Vera Bradley Women's Performance Twill Xl Campus Blue Color Backpack Backpack for
+              Travel or Work Bookbag.</p>
+            <h5>$200</h5>
+            <button type="button" class="btn btn-danger">Buy Now>></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="bags/bag-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Black Backpack</h5>
+            <p class="card-text"> DeMarini Voodoo OG Baseball Black Backpack for College Students, Teens, with 16-inch
+              Laptop Sleeve. </p>
+            <h5>$280</h5>
+            <button type="button" class="btn btn-danger">Buy Now>></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+  <div class="container shoes" id="shoes">
+    <h2> Shoes </h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="shoes/shoe-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Supply Bred</h5>
+            <p class="card-text"> Supply v2 Bred has unique construction that can gives you the vibe on your feet. </p>
+            <h5>$320</h5>
+            <button type="button" class="btn btn-danger">Buy Now>></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="shoes/shoe-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nike 320</h5>
+            <p class="card-text"> Nike 320 can enhance your confidence with its superb style and accents. </p>
+            <h5>$350</h5>
+            <button type="button" class="btn btn-danger">Buy Now>></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="shoes/shoe-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Red Airmax</h5>
+            <p class="card-text"> Owning Red Airmax gives you the chance to showcase red color dashing shoes. </p>
+            <h5>$400</h5>
+            <button type="button" class="btn btn-danger">Buy Now>></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="container bg-color2 d-flex justify-content-center" id="subscribe">
+    <div>
+      <h3> LET'S STAY IN TOUCH</h3>
+      <h6>Get updates on sales, offers and more:</h6>
+      <input class="form-control" type="text">
+      <button type="buy-now-button" class="btn btn-secondary">Please ! Submit Your E-mail Id Here.</button>
+    </div>
+  </div>
+
+
+  <footer>
+    <p>©Soikot's Shop 2022 . All Rights Reserved
+      </br>@soikot-shahriaar
+    </p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

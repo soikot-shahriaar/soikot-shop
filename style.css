@@ -1,0 +1,73 @@
+.container {
+    margin-bottom: 50px;
+}
+
+.bg-color {
+    background-color: #fceaef;
+    border-radius: 8px;
+}
+
+.carousel-item {
+    padding: 50px 50px;
+}
+
+.price {
+    color: rgba(255, 0, 0, 0.555);
+}
+
+.cat-watch,
+.cat-bag,
+.cat-shoes {
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+.cat-watch {
+    background-color: crimson;
+}
+
+.cat-bag {
+    background-color: blueviolet;
+}
+
+.cat-shoes {
+    background-color: blue;
+}
+
+.card-title {
+    color: rgba(255, 0, 0, 0.555);
+    text-decoration: solid;
+    text-align: center;
+    font-weight: 700;
+}
+
+.catagories h1 {
+    color: white;
+}
+
+.catagories img {
+    width: 100px;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightslategray;
+}
+
+.shoes img {
+    width: 300px
+}
+
+.bg-color2 {
+    background-color: lightgrey;
+}
+
+#subscribe h6 {
+    color: gray;
+}
+
+footer {
+    text-align: center;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
